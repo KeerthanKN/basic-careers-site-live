@@ -7,15 +7,18 @@
     </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div id="navbar">
-        <img id="logo" alt="Job Careers" src="https://i.imgur.com/m1wXjqw.png" height="30" />
+        <img id="logo" alt="Jovian Logo" src="https://i.imgur.com/JRA5Q8a.png" height="30" />
+        <img id="logo-with-text" alt="Jovian Logo" src="https://i.imgur.com/m1wXjqw.png" height="30" />
     </div>
-    <img id="banner" src="banner.jpg" alt="Banner" height="240">
+    <img id="banner" src="banner.jpg" alt="Banner">
 
     <h1>
         Welcome to Job Careers
@@ -53,11 +56,40 @@
     </div>
 
 
-
-
-    
     <h2>Job Opportunities</h2>
     <div id="jobs">
+        <div id="jobs-list">
+            <div class="job">
+                <div class="job-title">
+                    <div>Frontend Developer</div>
+                    <div>Bengaluru,India</div>
+                    <div>₹12,00,000</div>
+                    <div>Posted Mar 3, 2023</div>
+                </div>
+
+                <div class="job-title">
+                    <div>Full Stack Development</div>
+                    <div>Bengaluru,India</div>
+                    <div>₹15,00,000</div>
+                    <div>Posted Feb 10, 2023</div>
+                </div>
+
+                <div class="job-title">
+                    <div>Data Science</div>
+                    <div>Pune,India</div>
+                    <div>₹14,00,000</div>
+                    <div>Posted Jan 13, 2023</div>
+                </div>
+
+                <div class="job-title">
+                    <div>ML Engineer</div>
+                    <div>Remote</div>
+                    <div>$12,00,000</div>
+                    <div>Posted sep 23, 2023</div>
+                </div>
+
+            </div>
+        </div>
         <table id="jobs-table">
             <tr class="jobs-header-row">
                 <th rowspan="2">Job Title</th>
@@ -76,7 +108,7 @@
                 <td>₹12,00,000</td>
                 <td>Mar 3, 2023</td>
             </tr>
-            
+
             <tr class="jobs-data-row">
                 <td>Full Stack Developer</td>
                 <td>New Delhi</td>
@@ -99,19 +131,14 @@
                 <td>$80,000</td>
                 <td>Sep 19, 2022</td>
             </tr>
-            
+
         </table>
     </div>
 
     <div id="application">
         <h2>Submit Your Application</h2>
 
-        <form 
-            id="application-form" 
-            action="https://formbold.com/s/3wvKl"
-            method="POST"
-            enctype="multipart/form-data"
-        >
+        <form id="application-form" action="https://formbold.com/s/3wvKl" method="POST" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="name">Full Name</label><br>
                 <input type="text" id="name" name="Full Name" required placeholder="John Doe">
@@ -150,7 +177,8 @@
 
             <div class="form-group">
                 <label for="coverletter">Cover Letter</label><br>
-                <textarea id="coverletter" name="coverletter" rows="5" placeholder="Explain what makes you suitable for the job.."></textarea>
+                <textarea id="coverletter" name="coverletter" rows="5"
+                    placeholder="Explain what makes you suitable for the job.."></textarea>
             </div>
 
             <div class="form-group">
@@ -165,10 +193,10 @@
             </div>
 
         </form>
-        
+
     </div>
 
-    
+
 
     <div id="footer">
         <ul id="footer-links">
